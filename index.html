@@ -4,7 +4,67 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>MailerSend Transactional Email</title>
-    <link rel="stylesheet" href="style/style.css" />
+    <!-- <link rel="stylesheet" href="style/style.css" /> -->
+    <style>
+      body {
+        margin: 0;
+      }
+      table {
+        border-spacing: 0;
+      }
+      td {
+        padding: 0;
+      }
+      th {
+        width: 100%;
+      }
+      img {
+        border: 0;
+      }
+      h3 {
+        font-family: sans-serif;
+        font-size: 28px;
+      }
+      h4 {
+        font-family: sans-serif;
+        font-size: 22px;
+      }
+      h5 {
+        font-size: 15px;
+      }
+      p {
+        margin: 0;
+        text-align: left;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+
+      /* CONTAINER STYLES */
+      .wrapper {
+        width: 100%;
+        table-layout: fixed;
+        background-color: #fff;
+        padding-top: 15px;
+        padding-bottom: 35px;
+        padding-inline: 20px;
+      }
+      .main {
+        width: 100%;
+        max-width: 600px;
+        background-color: #fff;
+        font-family: sans-serif;
+        color: #000;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+        text-align: center;
+      }
+      .column {
+        width: 50%;
+        max-width: 211px;
+        /* Original property for display is 'TABLE CELL' */
+        /* display: inline-block; */
+        vertical-align: top;
+      }
+    </style>
   </head>
 
   <body>
@@ -29,11 +89,11 @@
                 <th>
                   <table style="margin-top: 15px; width: 100%">
                     <tr>
-                      <td style="text-align: left">
+                      <td style="text-align: center">
                         <img
-                          src="https://res.cloudinary.com/ddeima5fc/image/upload/v1697114621/logo_hz8mbx.png"
-                          alt="Contra logo"
-                          style="width: 40px"
+                          src="https://res.cloudinary.com/ddeima5fc/image/upload/v1697115366/logo_svli2q.png"
+                          alt="Mailer Send logo"
+                          style="max-width: 200px; width: 100%"
                         />
                       </td>
                     </tr>
@@ -41,80 +101,41 @@
                 </th>
               </tr>
               <!-- LOGO CONTAINER: END -->
-              <!-- HEADING: START -->
+              <!-- MAIN TEXT: START -->
               <tr>
                 <td>
-                  <h4
-                    style="
-                      text-align: left;
-                      font-size: 18.5px;
-                      margin-top: 10px;
-                      margin-bottom: 10px;
-                    "
-                  >
-                    Earn more with Contra Pro ✨
-                  </h4>
-                </td>
-              </tr>
-              <!-- HEADING: END -->
-              <!-- FACT: START -->
-              <tr>
-                <td>
-                  <p>
-                    Did you know? Independents who become Contra Pro members
-                    find more clients and earn more on average.
+                  <p style="font-weight: bold; margin-top: 30px">
+                    Your N/A account will be deleted in 30 days.
+                  </p>
+                  <p style="margin-top: 15px">
+                    We've noticed that you haven't accessed the
+                    <span style="font-weight: bold">N/A</span> account within
+                    the last 6 months. It'd be a pity to see you go when there
+                    are still so many emails left to send!
+                  </p>
+                  <p style="margin-top: 15px">
+                    To keep your account active, we need you to log into it and
+                    click on the Restore button. If not, your
+                    <span style="font-weight: bold"
+                      >account will be deleted in 30 days</span
+                    >
+                    and you won't be able to restore it.
                   </p>
                 </td>
               </tr>
-              <!-- FACT: END -->
-              <!-- BENEFITS: START -->
-              <tr>
-                <td>
-                  <p style="margin-top: 20px">
-                    After upgrading to Pro, Independents:
-                  </p>
-                  <p style="margin-top: 5px">
-                    📈 See
-                    <span style="font-weight: bold">over 50%</span> increase in
-                    job application acceptance rates
-                  </p>
-                  <p style="margin-top: 3px">
-                    📞 Receive over
-                    <span style="font-weight: bold">2.5x</span> as many
-                    inquiries from clients
-                  </p>
-                  <p style="margin-top: 3px">
-                    👀 Get over <span style="font-weight: bold">3x</span> as
-                    many views from clients
-                  </p>
-                  <p style="margin-top: 3px">
-                    💰 Earn <span style="font-weight: bold">over twice</span> as
-                    much from projects
-                  </p>
-                </td>
-              </tr>
-              <!-- BENEFITS: END -->
-              <!-- TRAIL: START -->
-              <tr>
-                <td>
-                  <p style="margin-top: 20px">
-                    Try for $1 for your first month; $12 per month after that
-                    and can be cancelled anytime.
-                  </p>
-                </td>
-              </tr>
-              <!-- TRAIL: END -->
-              <!-- UPGRADE BUTTON: START -->
+              <!-- MAIN TEXT: END -->
+              <!-- LOGIN BUTTON: START -->
               <tr>
                 <td>
                   <table
                     style="
-                      background-color: #000;
+                      background-color: #4e48e0;
                       width: 100%;
                       padding-top: 12px;
                       padding-bottom: 12px;
-                      margin-top: 15px;
-                      border-radius: 25px;
+                      margin-top: 20px;
+                      margin-bottom: 20px;
+                      border-radius: 5px;
                     "
                   >
                     <tr>
@@ -126,119 +147,138 @@
                             font-weight: 600;
                           "
                         >
-                          Upgrade now
+                          Log in
                         </p>
                       </td>
                     </tr>
                   </table>
                 </td>
               </tr>
-              <!-- UPGRADE BUTTON: END -->
-              <!-- BANNER IMAGE: START -->
+              <!-- LOGIN BUTTON: END -->
+              <!-- QUESTIONS TEXT: START -->
               <tr>
                 <td>
-                  <table style="margin-top: 30px">
+                  <p>
+                    If you have questions or need help with your account, please
+                    visit our
+                    <span style="text-decoration: underline">help center</span>
+                    for more information or
+                    <span style="text-decoration: underline">contact</span> our
+                    friendly Customer Support team.
+                  </p>
+                </td>
+              </tr>
+              <!-- QUESTIONS TEXT: END -->
+              <!-- SEE YOU TEXT: START -->
+              <tr>
+                <td>
+                  <p style="margin-top: 15px">
+                    We hope to you see you again soon,
+                  </p>
+                  <p>The MailerSend Team</p>
+                </td>
+              </tr>
+              <!-- SEE YOU TEXT: END -->
+              <!-- SIGNATURE IMAGE: START -->
+              <tr>
+                <td>
+                  <table
+                    style="width: 100%; margin-top: 20px; margin-bottom: 20px"
+                  >
                     <tr>
-                      <td>
+                      <td style="text-align: left">
                         <img
-                          src="https://res.cloudinary.com/ddeima5fc/image/upload/v1697114621/banner_ydx8dp.png"
-                          alt="Contra banner"
-                          style="max-width: 370px; width: 100%"
+                          src="https://res.cloudinary.com/ddeima5fc/image/upload/v1697115365/sign_k3yyxo.png"
+                          alt="Team Mailer Send Signature"
+                          style="max-width: 150px"
                         />
                       </td>
                     </tr>
                   </table>
                 </td>
               </tr>
-              <!-- BANNER IMAGE: END -->
-              <!-- MORE BENEFITS: START -->
+              <!-- SIGNATURE IMAGE: END -->
+              <!-- BOX CONTENT: START -->
               <tr>
                 <td>
-                  <p style="margin-bottom: 5px; margin-top: 25px">
-                    Become a Contra Pro member to... 👇🏻
-                  </p>
+                  <table
+                    style="
+                      border-radius: 10px;
+                      background-color: #fcfcfc;
+                      padding-top: 20px;
+                      padding-bottom: 20px;
+                      padding-left: 20px;
+                      padding-right: 20px;
+                      border: 1px solid #ccc;
+                      margin-top: 5px;
+                      margin-bottom: 20px;
+                    "
+                  >
+                    <tr>
+                      <td>
+                        <p>
+                          We have made lots of improvements to MailerSend since
+                          you were last here. To find out more, click
+                          <span style="text-decoration: underline">here</span>
+                          to visit our blog.
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <!-- BOX CONTENT: END -->
+              <!-- LOGIN MESSAGE: START -->
+              <tr>
+                <td>
                   <p>
-                    ✅ Access
-                    <span style="font-weight: bold"
-                      >AI-powered portfolio templates</span
-                    >
-                    with customization and branding tools
-                  </p>
-                  <p style="margin-top: 3px">
-                    ✅ Unlock
-                    <span style="font-weight: bold"
-                      >actionable insights with Pro Analytics</span
-                    >
+                    If you're having trouble clicking the button, copy and paste
+                    the URL below into your browser:
                   </p>
                   <p
                     style="
-                      margin-top: 3px;
-                      padding-bottom: 25px;
-                      border-bottom: 1px solid #e8e8e8;
+                      margin-top: 7px;
+                      border-bottom: 1px solid #ddd;
+                      padding-bottom: 20px;
+                      margin-bottom: 20px;
                     "
                   >
-                    ✅ Get
-                    <span style="font-weight: bold"
-                      >primary placement in Discover</span
-                    >, where Contra's clients search for top talent
+                    https://app.mailersend.com/login
                   </p>
                 </td>
               </tr>
-              <!-- MORE BENEFITS: END -->
-              <!-- SOCIAL ICONS: START -->
+              <!-- LOGIN MESSAGE: END -->
+              <!-- FOOTER: MESSAGE - START -->
               <tr>
                 <td>
-                  <table style="margin-top: 25px">
+                  <p style="text-align: center">
+                    You are receiving this email because this is an important
+                    message regarding your account.
+                  </p>
+                  <p style="text-align: center; margin-top: 10px">
+                    Sent with care by
+                    <span style="font-weight: bold">MailerSend</span>.
+                  </p>
+                </td>
+              </tr>
+              <!-- FOOTER: MESSAGE - END -->
+              <!-- FOOTER LOGO: START -->
+              <tr>
+                <td>
+                  <table style="margin-top: 30px; width: 100%">
                     <tr>
-                      <td>
+                      <td style="text-align: center">
                         <img
-                          src="https://res.cloudinary.com/ddeima5fc/image/upload/v1697114620/logo-tiktok_eu7hpv.png"
-                          alt="TikTok Logo"
-                          width="35"
-                        />
-                      </td>
-                      <td>
-                        <img
-                          src="https://res.cloudinary.com/ddeima5fc/image/upload/v1697114620/logo-twitter_sfwisb.png"
-                          alt="Twitter Logo"
-                          width="35"
-                        />
-                      </td>
-                      <td>
-                        <img
-                          src="https://res.cloudinary.com/ddeima5fc/image/upload/v1697114620/logo-instagram_f04zrh.png"
-                          alt="Instagram Logo"
-                          width="35"
-                        />
-                      </td>
-                      <td>
-                        <img
-                          src="https://res.cloudinary.com/ddeima5fc/image/upload/v1697114620/logo-youtube_rk4xx1.png"
-                          alt="YouTube Logo"
-                          width="35"
+                          src="https://res.cloudinary.com/ddeima5fc/image/upload/v1697115366/logo_svli2q.png"
+                          alt="Mailer Send logo"
+                          style="max-width: 150px; width: 100%"
                         />
                       </td>
                     </tr>
                   </table>
                 </td>
               </tr>
-              <!-- SOCIAL ICONS: END -->
-              <!-- FOOTER: START -->
-              <tr>
-                <td>
-                  <p style="margin-top: 20px; font-size: 13px">Contra.com</p>
-                  <p style="font-size: 13px">
-                    <span style="color: limegreen">Contra. Work</span> Inc
-                  </p>
-                  <p style="font-size: 13px">
-                    Market Street #4650 San Francisco, CA 94114
-                  </p>
-                  <p style="text-decoration: underline; font-size: 13px">
-                    Manage Subscriptions
-                  </p>
-                </td>
-              </tr>
-              <!-- FOOTER: END -->
+              <!-- FOOTER LOGO: END -->
             </table>
           </td>
         </tr>
